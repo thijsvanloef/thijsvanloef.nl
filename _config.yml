@@ -52,7 +52,7 @@ content:
             icon: fab fa-github
             url: https://github.com/thijsvanloef/palworld-server-docker
           - title: Documentation for the project
-            icon: fa-solid fa-book
+            icon: fas fa-book
             url: https://palworld-server-docker.loef.dev/
         quote: >
           A Docker Container to easily run a Palworld dedicated server.
