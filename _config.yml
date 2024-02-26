@@ -21,7 +21,7 @@ linkedin_username: thijsvanloef
 # Additional icon links
 additional_links:
   - title: loef.photos
-    icon: fa-solid fa-camera
+    icon: fas fa-camera
     url: https://loef.photos/
 
 # Google Analytics and Tag Manager
