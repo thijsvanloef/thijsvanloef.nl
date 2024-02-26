@@ -79,7 +79,7 @@ content:
   - title: Projects  # Title for the section
     layout: list  # Type of content section (list/text)
     content:
-      - layout: top-middle
+      - layout: left
         title: Palworld Server Docker
         link: https://github.com/thijsvanloef/palworld-server-docker
         # link_text: View on GitHub
@@ -90,18 +90,16 @@ content:
           - title: Documentation for the project
             icon: fas fa-book
             url: https://palworld-server-docker.loef.dev/
-        quote: >
-          A Docker Container to easily run a Palworld dedicated server.
         description: |
-          I started this repository as a way to easily manage a PalWorld server for me and my friends, however it has grown significantly in the span of a few weeks.
+          I started this repository as a way to easily manage a PalWorld server
+          for me and my friends, however it has grown significantly in the span
+          of a few weeks.
 
-          The project has reached over a <mark>100k Pulls</mark> on DockerHub and over <mark>2.2K Stars</mark> on GitHub.
-      - layout: top-middle
+          The project has reached over a <mark>100k Pulls</mark> on DockerHub
+          and over <mark>2.2K Stars</mark> on GitHub.
+      - layout: left
         title: Tice Tips
         link: https://tice.tips/
-        quote: >
-          I decided that my growing collection of .txt files containing how-to's was no longer the best way to store them.
-          So I decided to set up a platform to share my how-to's with the world.
         description: |
           My mission is to create a easily findable and accessible platform in
           which you can find guides that help you with all kinds of IT related
@@ -109,7 +107,7 @@ content:
           on the internet has run into. This is untrue of course,
           but some sites/documentation is way to hard to find.
           Tice Tips has been setup to solve this problem.
-      - layout: top-middle
+      - layout: left
         title: Loef Photos
         link: https://loef.photos/
         description: |
