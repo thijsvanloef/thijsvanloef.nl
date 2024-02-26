@@ -86,11 +86,11 @@ content:
   - title: Education  # Title for the section
     layout: list  # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: top-middle
         title: Radboud University
         caption: 2019
         sub_title: Pre-Master Information Sciences
-      - layout: left
+      - layout: top-middle
         title: HAN University of Applied Sciences
         caption: 2016 - 2020
         sub_title: Bachelor ICT - Infrastructure & Security Management
