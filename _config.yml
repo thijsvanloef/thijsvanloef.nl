@@ -79,7 +79,7 @@ content:
   - title: Projects  # Title for the section
     layout: list  # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: top-middle
         title: Palworld Server Docker
         link: https://github.com/thijsvanloef/palworld-server-docker
         # link_text: View on GitHub
@@ -96,7 +96,7 @@ content:
           I started this repository as a way to easily manage a PalWorld server for me and my friends, however it has grown significantly in the span of a few weeks.
 
           The project has reached over a <mark>100k Pulls</mark> on DockerHub and over <mark>2.2K Stars</mark> on GitHub.
-      - layout: left
+      - layout: top-middle
         title: Tice Tips
         link: https://tice.tips/
         quote: >
@@ -109,7 +109,7 @@ content:
           on the internet has run into. This is untrue of course,
           but some sites/documentation is way to hard to find.
           Tice Tips has been setup to solve this problem.
-      - layout: left
+      - layout: top-middle
         title: Loef Photos
         link: https://loef.photos/
         description: |
