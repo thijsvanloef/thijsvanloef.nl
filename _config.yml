@@ -7,75 +7,60 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
+name: Thijs van Loef
+title: DevOps Engineer
 email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
-# xing_username: jekyll
-# pinterest_username: jekyll
-youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
+github_username: thijsvanloef
+linkedin_username: thijsvanloef
 
 # Additional icon links
 additional_links:
-  - title: itsgoingto.be
+  - title: loef.photos
     icon: fas fa-globe
-    url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) 
-#     (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
+    url: https://loef.photos/
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
 # gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
+gtag: "G-YFMJ3PQMM1"
 # google_analytics: "UA-00000000-0"
 
 # About Section
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  A team player who leaves nothing to chance and plans everything down to the last detail.
+  A Skilled DevOps engineer who want to make his life as easy as possible by automating whatever I can.
+  Skills: <mark>Docker</mark>, <mark>Monitoring</mark>, <mark>Ansible</mark>, <mark>CI/CD</mark>
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Projects  # Title for the section
+    layout: list  # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
+        title: Palworld Server Docker
+        link: https://github.com/thijsvanloef/palworld-server-docker
+        # link_text: View on GitHub
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title: Github page for project
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+            url: https://github.com/thijsvanloef/palworld-server-docker
+          - title: Documentation for the project
+            icon: fab fa-book-open
+            url: https://palworld-server-docker.loef.dev/
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          A Docker Container to easily run a Palworld dedicated server.
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          I started this repository as a way to easily manage a PalWorld server for me and my friends, however it has grown significantly in the span of a few weeks.
+          The project has reached over a <mark>100k Pulls</mark> on DockerHub and over <mark>2.2K Stars</mark> on GitHub.
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Experience  # Title for the section
+    layout: list  # Type of content section (list/text)
     content:
       - layout: left
         title: The Boring Company
